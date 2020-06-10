@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './component/Header'
 import Products from './component/Products'
 
-import './App.css';
+//import './App.css';
 
 const App = () => {
   return (

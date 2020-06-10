@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import JSON from './db.json'
 
 class Products extends Component {
 
@@ -6,7 +7,8 @@ class Products extends Component {
     super()
 
     this.state = {
-      title: 'Products Page'
+      title: 'Products Page', 
+      products: JSON
     }
   }
 
