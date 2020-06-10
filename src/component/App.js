@@ -1,12 +1,13 @@
 import React from 'react';
-import Header from './component/Header'
-import Products from './component/Products'
+import Header from './Header'
+import Products from './Products'
 
 //import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
+    <div>
+   
       <Header />
       <Products />
     </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import JSON from './db.json'
+import ProductList from './ProductListing'
 
 class Products extends Component {
 
@@ -12,10 +13,14 @@ class Products extends Component {
     }
   }
 
+
+
   render() {
+    
     return (
       <div>
         <h2>{ this.state.title }</h2>
+        <ProductList prodList={ this.state.products } />
       </div>
     )
   }
